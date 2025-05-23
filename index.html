@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hot Beans Web - All In One</title>
+  <link rel="stylesheet" href="mycss/style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Hot Beans Web</h1>
+    <nav>
+      <ul>
+        <li><a href="#home" class="btn">Home</a></li>
+        <li><a href="#trainees" class="btn">Trainee Profiles</a></li>
+        <li><a href="#jobs" class="btn">Jobs</a></li>
+        <li><a href="#apply" class="btn">Apply</a></li>
+        <li><a href="#courses" class="btn">Courses</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home">
+      <h2>Who are We?</h2>
+      <p>Hot Beans Web is a creative and friendly web development agency that builds modern, responsive websites.</p>
+      <h2>Join Our Team!</h2>
+      <p>We're currently hiring new trainee developers. Explore our job listings and <a href="#apply">send us your application today!</a></p>
+    </section>
+
+    <section id="trainees" class="company_trainees">
+      <h2>Profiles of Existing Trainee Web Developers</h2>
+      <ul>
+        <li><img src="images/greg.jpg" alt="Photo of Greg" width="100" height="80"><br><strong>Greg</strong><br>Enthusiastic coder who enjoys learning new frameworks.</li>
+        <li><img src="images/kamil.jpg" alt="Photo of Kamil" width="100" height="80"><br><strong>Kamil</strong><br>Skilled in front-end and CSS animations.</li>
+        <li><img src="images/mewing.jpg" alt="Photo of Gabe" width="100" height="80"><br><strong>Gabe</strong><br>Back-end wizard with a love for clean code.</li>
+        <li><img src="images/simon.jpg" alt="Photo of Simon" width="100" height="80"><br><strong>Simon</strong><br>Great with UX and passionate about accessibility.</li>
+        <li><img src="images/declan.jpg" alt="Photo of Declan" width="100" height="80"><br><strong>Declan</strong><br>Keen on JavaScript and building cool web apps.</li>
+      </ul>
+    </section>
+
+    <section id="jobs" class="job-listing">
+      <h2>Junior Web Developer</h2>
+      <p><strong>Role:</strong> Help build and maintain websites for a wide range of clients using HTML, CSS, and JavaScript.</p>
+      <p><strong>Skills/Qualifications:</strong></p>
+      <ul>
+        <li>Basic understanding of HTML, CSS, JavaScript</li>
+        <li>Responsive design knowledge</li>
+        <li>Willingness to learn and collaborate</li>
+      </ul>
+      <h2>Web Development Intern</h2>
+      <p><strong>Role:</strong> Work alongside senior developers to support live projects and gain experience with real clients.</p>
+      <p><strong>Skills/Qualifications:</strong></p>
+      <ul>
+        <li>Completed or currently enrolled in a web dev course</li>
+        <li>Good communication and time management</li>
+        <li>Basic Git/GitHub understanding (optional)</li>
+      </ul>
+    </section>
+
+    <section id="apply">
+      <h2>Apply for a Role</h2>
+      <form class="job-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+        <label for="role">Role Applying For:</label>
+        <select id="role" name="role" required>
+          <option value="">-- Select Role --</option>
+          <option value="junior">Junior Web Developer</option>
+          <option value="intern">Web Development Intern</option>
+        </select>
+        <label for="about">Tell Us About Yourself:</label>
+        <textarea id="about" name="about" rows="4" cols="40" placeholder="Your experience, interests, etc."></textarea>
+        <input type="submit" value="Submit Application" class="btn">
+      </form>
+    </section>
+
+    <section id="courses">
+      <h2>Web Development Courses</h2>
+      <p>Want to sharpen your skills before applying? Here are some beginner-friendly courses that can help you level up as a web developer:</p>
+      <div class="course-links">
+        <a href="https://www.codecademy.com/learn/learn-html" target="_blank" class="btn">Learn HTML - Codecademy</a>
+        <a href="https://www.freecodecamp.org/learn" target="_blank" class="btn">freeCodeCamp - Responsive Web Design</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" class="btn">MDN Web Docs - Learn Web Dev</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hot Beans Web</p>
+  </footer>
+
+</body>
+</html>
