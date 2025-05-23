@@ -6,7 +6,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f3f3f3;
+  background-color: orange;
   color: #333;
 }
 
@@ -47,10 +47,10 @@ section {
   width: 100%;
   max-width: 900px;
   margin-bottom: 40px;
-  background-color: white;
+  background-color: orange;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(255, 5, 5, 0.1);
 }
 
 footer {
